@@ -4,3 +4,6 @@ target/
 dbt_packages/
 *.pyc
 __pycache__/
+
+# generated datasets (reproducible via data_generator/generate.py)
+data/
