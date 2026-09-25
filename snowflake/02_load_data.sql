@@ -5,7 +5,7 @@
 -- Use forward slashes in the path, even on Windows.
 -- ============================================================
 USE DATABASE NOVAFLOW;
-USE SCHEMA NOVAFLOW_SALES_OPPS;
+USE SCHEMA NOVAFLOW_RAW;
 
 -- 1) upload (files are gzip-compressed automatically -> <name>.csv.gz)
 PUT 'file://<% raw_dir %>/*.csv' @RAW_STAGE AUTO_COMPRESS = TRUE OVERWRITE = TRUE PARALLEL = 8;

@@ -5,7 +5,7 @@
 -- UI uploads are not compressed, so files are named <table>.csv.
 -- ============================================================
 USE DATABASE NOVAFLOW;
-USE SCHEMA NOVAFLOW_SALES_OPPS;
+USE SCHEMA NOVAFLOW_RAW;
 
 -- confirm the 12 files are on the stage
 LIST @RAW_STAGE;

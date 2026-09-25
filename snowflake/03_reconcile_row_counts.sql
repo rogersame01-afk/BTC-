@@ -3,7 +3,7 @@
 -- CSV counts exclude the header (CSV_RAW_FF has SKIP_HEADER = 1).
 -- ============================================================
 USE DATABASE NOVAFLOW;
-USE SCHEMA NOVAFLOW_SALES_OPPS;
+USE SCHEMA NOVAFLOW_RAW;
 
 WITH csv_counts AS (
     SELECT

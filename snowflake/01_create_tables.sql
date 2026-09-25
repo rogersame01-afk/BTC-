@@ -1,10 +1,10 @@
 -- ============================================================
 -- NovaFlow raw layer: file format, stage and the 12 raw tables
--- Target: NOVAFLOW.NOVAFLOW_SALES_OPPS
+-- Target: NOVAFLOW.NOVAFLOW_RAW
 -- Safe to re-run (CREATE OR REPLACE drops existing data).
 -- ============================================================
 USE DATABASE NOVAFLOW;
-USE SCHEMA NOVAFLOW_SALES_OPPS;
+USE SCHEMA NOVAFLOW_RAW;
 
 CREATE OR REPLACE FILE FORMAT CSV_RAW_FF
     TYPE = CSV
